@@ -1,4 +1,5 @@
 FROM    jsmigel/centos-epel:centos6
+MAINTAINER jsmigel@users.noreply.github.com
 
 RUN yum -y install ngircd
 RUN yum -y update
