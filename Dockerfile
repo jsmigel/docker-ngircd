@@ -8,4 +8,4 @@ ADD ngircd.conf /etc/ngircd.conf
 
 EXPOSE 6667
 
-CMD /usr/sbin/ngircd -n
+ENTRYPOINT [ "/usr/sbin/ngircd", "-n" ]
